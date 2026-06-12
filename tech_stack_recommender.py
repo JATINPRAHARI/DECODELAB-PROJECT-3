@@ -1,19 +1,9 @@
-"""
-PROJECT 3: AI RECOMMENDATION LOGIC
-Tech Stack Recommender System
-Powered by DecodeLabs
-
-This system implements content-based filtering using TF-IDF weighting 
-and Cosine Similarity to recommend career paths based on user skills.
-"""
 
 import math
 from collections import defaultdict
 import json
 
-# ============================================================================
-# STEP 1: DATASET - Job Roles with Associated Skills
-# ============================================================================
+
 
 JOB_ROLES = {
     "Data Scientist": {
@@ -39,9 +29,7 @@ JOB_ROLES = {
 }
 
 
-# ============================================================================
-# STEP 2: TF-IDF VECTORIZATION
-# ============================================================================
+
 
 class TFIDFVectorizer:
     """Converts text/skills into weighted numerical vectors"""
@@ -100,9 +88,7 @@ class TFIDFVectorizer:
         return vector
 
 
-# ============================================================================
-# STEP 3: COSINE SIMILARITY CALCULATION
-# ============================================================================
+
 
 def cosine_similarity(vector1, vector2):
     """
@@ -129,9 +115,7 @@ def cosine_similarity(vector1, vector2):
     return similarity
 
 
-# ============================================================================
-# STEP 4: 4-STEP RECOMMENDATION PIPELINE
-# ============================================================================
+
 
 class RecommendationEngine:
     """
@@ -223,9 +207,7 @@ class RecommendationEngine:
         }
 
 
-# ============================================================================
-# STEP 5: COLD START PROBLEM SOLUTIONS
-# ============================================================================
+
 
 def get_trending_roles():
     """Fallback: Return globally trending job roles"""
@@ -250,9 +232,7 @@ def get_metadata_inference(user_skills):
     return inference
 
 
-# ============================================================================
-# MAIN EXECUTION
-# ============================================================================
+
 
 def main():
     """Run the Tech Stack Recommender with example user input"""

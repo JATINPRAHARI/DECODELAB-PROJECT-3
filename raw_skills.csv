@@ -1,0 +1,11 @@
+job_role,required_skills,years_experience,salary_range
+Data Scientist,"Python, SQL, Machine Learning, Data Analysis, TensorFlow, Statistical Analysis",3-5,$90k-$150k
+DevOps Engineer,"Docker, Kubernetes, AWS, CI/CD, Jenkins, Cloud Computing",2-4,$100k-$160k
+Backend Developer,"Java, Python, SQL, APIs, Microservices, Database Design",2-5,$85k-$140k
+Cloud Architect,"AWS, Cloud Computing, Database Design, Kubernetes, DevOps, Automation",5-7,$120k-$200k
+ML Engineer,"Python, Machine Learning, TensorFlow, Deep Learning, Statistical Analysis, Data Analysis",3-6,$110k-$180k
+Frontend Developer,"JavaScript, React, CSS, HTML, Web Design, UI/UX",2-4,$80k-$130k
+Database Administrator,"SQL, Database Design, Cloud Computing, AWS, Performance Tuning",3-5,$85k-$135k
+Systems Administrator,"Linux, AWS, Kubernetes, CI/CD, Networking, Automation",2-4,$75k-$120k
+Data Engineer,"Python, SQL, Spark, Kafka, ETL, Big Data",3-5,$95k-$155k
+Security Engineer,"Linux, Networking, AWS, Kubernetes, Security, Encryption",4-6,$110k-$170k
